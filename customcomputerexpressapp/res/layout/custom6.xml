@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <AbsoluteLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.96" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="12dp"
+            android:layout_y="40dp"
+            android:text="Please select a HDD:"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <RadioGroup
+            android:id="@+id/custom6_rg"
+            android:layout_width="wrap_content"
+            android:layout_height="266dp"
+            android:layout_x="20dp"
+            android:layout_y="78dp" >
+
+            <RadioButton
+                android:id="@+id/cust6rad1"
+                android:layout_width="234dp"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="Seagate Barracuda 320GB 7200RPM (+$94.99)"
+                android:textSize="13dp" />
+
+            <RadioButton
+                android:id="@+id/cust6rad2"
+                android:layout_width="236dp"
+                android:layout_height="wrap_content"
+                android:text="Hitachi 500GB 7200RPM (+$99.99)"
+                android:textSize="13dp" />
+
+            <RadioButton
+                android:id="@+id/cust6rad3"
+                android:layout_width="232dp"
+                android:layout_height="wrap_content"
+                android:text="Seagate Momentus 640GB 5400RPM (+$119.99)"
+                android:textSize="13dp" />
+
+            <RadioButton
+                android:id="@+id/cust6rad4"
+                android:layout_width="234dp"
+                android:layout_height="wrap_content"
+                android:text="Seagate Constellation 1TB 7200RPM (+$219.99)"
+                android:textSize="13dp" />
+
+            <RadioButton
+                android:id="@+id/cust6rad5"
+                android:layout_width="232dp"
+                android:layout_height="wrap_content"
+                android:text="Seagate Barracuda 3TB XT 7200 RPM (+$429.99)"
+                android:textSize="13dp" />
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/custom6.main"
+            style="@style/ButtonText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_x="0dp"
+            android:layout_y="384dp"
+            android:background="@drawable/ccebutton"
+            android:text="Return to GPU" />
+
+        <Button
+            android:id="@+id/custom6.next"
+            style="@style/ButtonText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_x="0dp"
+            android:layout_y="340dp"
+            android:background="@drawable/ccebutton"
+            android:text="Next" />
+
+        <Button
+            android:id="@+id/custom6.help"
+            style="@style/ButtonText"
+            android:layout_width="64dp"
+            android:layout_height="wrap_content"
+            android:layout_x="250dp"
+            android:layout_y="6dp"
+            android:background="@drawable/ccebutton"
+            android:text="Help"
+            android:textSize="10dp" />
+
+        <Button
+            android:id="@+id/cust6img2"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="256dp"
+            android:layout_y="131dp"
+            android:background="@drawable/ccebutton"
+            android:text="View" />
+
+        <Button
+            android:id="@+id/cust6img1"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="256dp"
+            android:layout_y="83dp"
+            android:background="@drawable/ccebutton"
+            android:text="View" />
+
+        <Button
+            android:id="@+id/cust6img3"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="256dp"
+            android:layout_y="180dp"
+            android:background="@drawable/ccebutton"
+            android:text="View" />
+
+        <Button
+            android:id="@+id/cust6img4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="256dp"
+            android:layout_y="229dp"
+            android:background="@drawable/ccebutton"
+            android:text="View" />
+
+        <Button
+            android:id="@+id/cust6img5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="256dp"
+            android:layout_y="276dp"
+            android:background="@drawable/ccebutton"
+            android:text="View" />
+
+    </AbsoluteLayout>
+
+</LinearLayout>

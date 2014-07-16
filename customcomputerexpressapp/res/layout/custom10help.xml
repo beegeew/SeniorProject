@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="350dp" 
+    android:layout_height="450dp" 
+    android:orientation="vertical">
+ 
+
+
+
+    <AbsoluteLayout
+        android:layout_width="319dp"
+        android:layout_height="match_parent" >
+
+
+
+
+
+       <Button
+           android:id="@+id/pop.close"
+           style="@style/ButtonText"
+           android:layout_width="303dp"
+           android:layout_height="460dp"
+           android:layout_x="6dp"
+           android:layout_y="18dp"
+           android:text=" " />
+
+
+
+       <TextView
+           android:layout_width="275dp"
+           android:layout_height="match_parent"
+           android:layout_x="14dp"
+           android:layout_y="22dp"
+           android:text="
+The power supply (a.k.a. power supply unit or PSU) is essentially the heart of a computer - it provides the driving (electric) power for all essential computer components, such as
+ the processor, motherboard, memory modules, video card and add-in cards, as well as hard drives and optical drives.
+
+The truth is that the power supply is a vitally important part of a computer system as every component inside the computer case is fed by the PSU. A high quality power 
+supply with enough power capacity ensures the functionality of your equipments as well as their reliability and durability. On the other hand, many problems and malfunctions 
+are caused by low quality or under-powered PSUs. In addition, future upgrades to your computer may increase the power consumption (for example, adding a second video card).
+&#13;&#10;&#13;&#10;
+If you want a high-quality PSU with the capacity for future upgrades, select a PSU towards the bottom of the list.
+
+
+
+" />
+        
+ </AbsoluteLayout></LinearLayout>

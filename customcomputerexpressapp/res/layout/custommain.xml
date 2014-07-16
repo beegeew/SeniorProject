@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <AbsoluteLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.92" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="fill_parent"
+            android:layout_height="94dp"
+            android:layout_x="-2dp"
+            android:layout_y="15dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="Please select the desired computer part."
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="fill_parent"
+            android:layout_height="115dp"
+            android:layout_x="0dp"
+            android:layout_y="96dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="The part you select will automatically be included in your custom computer"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <Button
+            android:id="@+id/custom.begin"
+            style="@style/ButtonText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_x="1dp"
+            android:layout_y="343dp"
+            android:background="@drawable/ccebutton"
+            android:text="Begin" />
+
+        <Button
+            android:id="@+id/custom.main"
+            style="@style/ButtonText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_x="0dp"
+            android:layout_y="390dp"
+            android:background="@drawable/ccebutton"
+            android:text="Return to Main Screen" />
+
+    </AbsoluteLayout>
+
+</LinearLayout>

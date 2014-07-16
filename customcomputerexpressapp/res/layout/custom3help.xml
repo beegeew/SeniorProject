@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="350dp" 
+    android:layout_height="450dp" 
+    android:orientation="vertical">
+ 
+
+
+
+    <AbsoluteLayout
+        android:layout_width="319dp"
+        android:layout_height="match_parent" >
+
+
+
+
+
+       <Button
+           android:id="@+id/pop.close"
+           style="@style/ButtonText"
+           android:layout_width="303dp"
+           android:layout_height="460dp"
+           android:layout_x="6dp"
+           android:layout_y="18dp"
+           android:text=" " />
+
+
+
+       <TextView
+           android:layout_width="275dp"
+           android:layout_height="match_parent"
+           android:layout_x="14dp"
+           android:layout_y="22dp"
+           android:text="
+
+Consider the CPU as the brain of a computer, and the motherboard the body. Then connect all the other devices and components. It's easy to simply grab a motherboard after 
+choosing a CPU - maybe the one that adheres to the budget better or costs less. That isn't the recommended approach because the motherboard roughly determines the type of 
+system that can be built and directly affects the type of parts and devices that can be installed in the system. Rather importantly it also determines the upgradeability of the system.&#13;&#10;&#13;&#10;
+
+If you plan on upgrading your computer in the future, select a motherboard towards the bottom of the list.
+
+" />
+        
+ </AbsoluteLayout></LinearLayout>

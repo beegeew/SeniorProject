@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="350dp" 
+    android:layout_height="450dp" 
+    android:orientation="vertical">
+ 
+
+
+
+    <AbsoluteLayout
+        android:layout_width="319dp"
+        android:layout_height="match_parent" >
+
+
+
+
+
+       <Button
+           android:id="@+id/pop.close"
+           style="@style/ButtonText"
+           android:layout_width="303dp"
+           android:layout_height="460dp"
+           android:layout_x="6dp"
+           android:layout_y="18dp"
+           android:text=" " />
+
+
+
+       <TextView
+           android:layout_width="275dp"
+           android:layout_height="match_parent"
+           android:layout_x="14dp"
+           android:layout_y="22dp"
+           android:text="
+
+As the most visible parts of the total PC system, the appearance of the case (also called chassis or enclosure) can be of vital importance. The significance of the computer case is far 
+more than just skin deep, however. As most computer parts are installed in the case, the case is far more than just a box. It plays a very significant role - not only does the computer 
+case affect the type and number of components that can be installed, the layout and design of the case and its internals also determine the cooling performance of the entire system. 
+
+
+
+&#13;&#10;\n\n
+If you plan on using the computer for intense applications such as gaming, we recommend picking a case towards the bottom of the list for the best cooling and noise control.
+
+
+" />
+        
+ </AbsoluteLayout></LinearLayout>

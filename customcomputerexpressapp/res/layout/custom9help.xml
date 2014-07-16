@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="350dp" 
+    android:layout_height="450dp" 
+    android:orientation="vertical">
+ 
+
+
+
+    <AbsoluteLayout
+        android:layout_width="319dp"
+        android:layout_height="match_parent" >
+
+
+
+
+
+       <Button
+           android:id="@+id/pop.close"
+           style="@style/ButtonText"
+           android:layout_width="303dp"
+           android:layout_height="460dp"
+           android:layout_x="6dp"
+           android:layout_y="18dp"
+           android:text=" " />
+
+
+
+       <TextView
+           android:layout_width="275dp"
+           android:layout_height="match_parent"
+           android:layout_x="14dp"
+           android:layout_y="22dp"
+           android:text="
+
+Every CPU requires a cooling system to keep it from overheating due to the workload placed upon it. However, most CPUs come with a stock cooler provided by the manufacturer that
+is adequate for normal performance. However, many users opt to purchase aftermarket cooling systems that are significantly better in keeping your CPU cool. This allow for overclocking
+which essentially pushes your CPU past its stock speed. By overclocking, users gain a faster CPU for little to no cost.
+
+&#13;&#10;&#13;&#10;
+
+If you plan on overclocking your computer, we suggest selecting a CPU cooler.
+
+
+" />
+        
+ </AbsoluteLayout></LinearLayout>

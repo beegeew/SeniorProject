@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <AbsoluteLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.96" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="12dp"
+            android:layout_y="40dp"
+            android:text="Please select a GPU (optional):"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <RadioGroup
+            android:id="@+id/custom5_rg"
+            android:layout_width="wrap_content"
+            android:layout_height="266dp"
+            android:layout_x="20dp"
+            android:layout_y="78dp" >
+
+            <RadioButton
+                android:id="@+id/cust5rad1"
+                android:layout_width="222dp"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="MSI Cyclone OC GeForce GTX 550 Ti (+$139.99)"
+                android:textSize="13dp" />
+
+            <RadioButton
+                android:id="@+id/cust5rad2"
+                android:layout_width="236dp"
+                android:layout_height="wrap_content"
+                android:text="EVGA GeForce GTX 570 HD (+$349.99)"
+                android:textSize="13dp" />
+
+            <RadioButton
+                android:id="@+id/cust5rad3"
+                android:layout_width="232dp"
+                android:layout_height="wrap_content"
+                android:text="EVGA SuperClocked GeForce GTX 580  (+$509.99)"
+                android:textSize="13dp" />
+
+            <RadioButton
+                android:id="@+id/cust5rad4"
+                android:layout_width="226dp"
+                android:layout_height="wrap_content"
+                android:text="EVGA GeForce GTX 590 (+$749.99)"
+                android:textSize="13dp" />
+
+            <RadioButton
+                android:id="@+id/cust5rad5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="None"
+                android:textSize="13dp" />
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/custom5.main"
+            style="@style/ButtonText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_x="0dp"
+            android:layout_y="384dp"
+            android:background="@drawable/ccebutton"
+            android:text="Return to RAM" />
+
+        <Button
+            android:id="@+id/custom5.next"
+            style="@style/ButtonText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_x="0dp"
+            android:layout_y="340dp"
+            android:background="@drawable/ccebutton"
+            android:text="Next" />
+
+        <Button
+            android:id="@+id/custom5.help"
+            style="@style/ButtonText"
+            android:layout_width="64dp"
+            android:layout_height="wrap_content"
+            android:layout_x="250dp"
+            android:layout_y="6dp"
+            android:background="@drawable/ccebutton"
+            android:text="Help"
+            android:textSize="10dp" />
+
+        <Button
+            android:id="@+id/cust5img2"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="256dp"
+            android:layout_y="131dp"
+            android:background="@drawable/ccebutton"
+            android:text="View" />
+
+        <Button
+            android:id="@+id/cust5img1"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="256dp"
+            android:layout_y="83dp"
+            android:background="@drawable/ccebutton"
+            android:text="View" />
+
+        <Button
+            android:id="@+id/cust5img3"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="256dp"
+            android:layout_y="180dp"
+            android:background="@drawable/ccebutton"
+            android:text="View" />
+
+        <Button
+            android:id="@+id/cust5img4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="256dp"
+            android:layout_y="229dp"
+            android:background="@drawable/ccebutton"
+            android:text="View" />
+
+    </AbsoluteLayout>
+
+</LinearLayout>

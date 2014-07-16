@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="131dp"
+                android:layout_height="176dp"
+                android:src="@drawable/case4" />
+
+            <TextView
+                android:id="@+id/textView1"
+                style="@style/ButtonText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="High Performance Model
+                
+This is a great computer for gamers and can handle almost any game and graphics application you can throw at it."
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/pb4.purchase"
+            style="@style/ButtonText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ccebutton"
+            android:text="Add to Cart!  ($2194.89)" />
+
+        <Button
+            android:id="@+id/pb4.customize"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Customize Computer" 
+            android:background="@drawable/ccebutton" 
+        	style="@style/ButtonText"/>
+        <Button
+            android:id="@+id/pb4.main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Return to Main Screen" 
+            android:background="@drawable/ccebutton" 
+        	style="@style/ButtonText"/>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Case: Antec Lanboy Air
+CPU: Intel i7 3.4 GHz Quad-core
+Motherboard: Gigabyte
+Memory: G.SKILL 8GB
+Video Card: Superclocked GTX 580 1536 MB
+Hard Drive: 1TB 7200RPM
+Solid State Drive: Intel 320 Series 120 GB
+CD/DVD Drive: Blue-ray 16x DVD 48x CD
+Cooling: Corsair Liquid Cooling
+Power Supply: Corsair 850W
+Operating System: Windows 7 
+Home Premium" />
+
+    </LinearLayout>
+
+</ScrollView>

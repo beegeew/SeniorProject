@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="350dp" 
+    android:layout_height="450dp" 
+    android:orientation="vertical">
+ 
+
+
+
+    <AbsoluteLayout
+        android:layout_width="319dp"
+        android:layout_height="match_parent" >
+
+
+
+
+
+       <Button
+           android:id="@+id/pop.close"
+           style="@style/ButtonText"
+           android:layout_width="303dp"
+           android:layout_height="460dp"
+           android:layout_x="6dp"
+           android:layout_y="18dp"
+           android:text=" " />
+
+
+
+       <TextView
+           android:layout_width="275dp"
+           android:layout_height="match_parent"
+           android:layout_x="14dp"
+           android:layout_y="22dp"
+           android:text="
+
+The CPU (Central Processing Unit) is essentially the brain of the computer. It interprets and executes instructions and data contained in software programs. The more generic term
+ 'processor' is often used to refer to a CPU as well. A processor can execute instructions more quickly using a faster clock speed, resulting in increased performance of the processor 
+and system. Clock speed is still an important feature contributing to performance, especially when comparing processors based on the same core, for example, a 3GHz Prescott core 
+Pentium 4 is faster than a 2.8GHz processor using the same core.&#13;&#10;&#13;&#10; 
+
+If you need the fastest speeds in your computer, select a CPU from the bottom of the list.
+
+" />
+        
+ </AbsoluteLayout></LinearLayout>

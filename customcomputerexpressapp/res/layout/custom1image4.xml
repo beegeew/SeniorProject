@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+
+    <AbsoluteLayout
+        android:layout_width="match_parent"
+        android:layout_height="384dp" >
+
+
+
+
+        <Button
+            android:id="@+id/cust1img4close"
+            style="@style/ButtonText"
+            android:layout_width="269dp"
+            android:layout_height="460dp"
+            android:layout_x="0dp"
+            android:layout_y="0dp"
+            android:text=" " />
+
+
+        <ImageView
+            android:id="@+id/cust1imgview4"
+            android:layout_width="253dp"
+            android:layout_height="212dp"
+            android:src="@drawable/case4" />
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="265dp"
+            android:layout_height="201dp"
+            android:layout_x="13dp"
+            android:layout_y="220dp"
+            android:text="Fully Modular Design&#13;&#10;1 x USB 3.0&#13;&#10;2 x USB 2.0&#13;&#10;2 x front variable-speed 120 mm blue LED fans with stepless control knobs&#13;&#10;1 x rear 120 mm TwoCool blue LED fan&#13;&#10;2 x side 120 mm TwoCool blue LED fans for graphics cards cooling&#13;&#10;Dimensions: 20.20 x 8.70 x 20.30"
+            android:textColor="#FFF" />
+
+    </AbsoluteLayout>
+
+</LinearLayout>

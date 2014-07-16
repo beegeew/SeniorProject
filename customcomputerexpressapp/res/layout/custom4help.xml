@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="350dp" 
+    android:layout_height="450dp" 
+    android:orientation="vertical">
+ 
+
+
+
+    <AbsoluteLayout
+        android:layout_width="319dp"
+        android:layout_height="match_parent" >
+
+
+
+
+
+       <Button
+           android:id="@+id/pop.close"
+           style="@style/ButtonText"
+           android:layout_width="303dp"
+           android:layout_height="460dp"
+           android:layout_x="6dp"
+           android:layout_y="18dp"
+           android:text=" " />
+
+
+
+       <TextView
+           android:layout_width="275dp"
+           android:layout_height="match_parent"
+           android:layout_x="14dp"
+           android:layout_y="22dp"
+           android:text="
+Memory (referred to as RAM) is essentially the computer's workspace – the place where the computer temporarily stores data and programs. How well memory works is an important 
+factor that influences the overall performance of your PC. Memory speed allows more data to be transferred in a given time for greater system response and performance in 
+demanding applications and games. PC system memory is a means to temporarily store data and instructions for use by the central processing unit (CPU). System memory is typically 
+referred to as RAM, which stands for Random Access Memory.&#13;&#10;&#13;&#10;
+
+If you plan on running many programs at once or using demanding programs such as video games or media software, select RAM towards the bottom of the list.
+
+
+" />
+        
+ </AbsoluteLayout></LinearLayout>

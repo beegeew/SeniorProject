@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="131dp"
+                android:layout_height="176dp"
+                android:src="@drawable/case5" />
+
+            <TextView
+                android:id="@+id/textView1"
+                style="@style/ButtonText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Extreme Model
+                
+This system has the best of the best components for those users who truly want the top of the line components and to handle the games of the future."
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/pb5.purchase"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add to Cart!  ($6409.89)" 
+            android:background="@drawable/extremeccebutton" 
+        	style="@style/ButtonText"/>
+
+        <Button
+            android:id="@+id/pb5.customize"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Customize Computer" 
+            android:background="@drawable/extremeccebutton" 
+        	style="@style/ButtonText"/>
+        <Button
+            android:id="@+id/pb5.main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Return to Main Screen" 
+            android:background="@drawable/extremeccebutton" 
+        	style="@style/ButtonText"/>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Case: Silverstone Fortress
+CPU: Intel i7 3.5 GHz Quad-core
+Motherboard: Gigabyte 
+Memory: RAM 8GB
+Video Card: GTX 590 3072 MB
+Hard Drive: 3TB 7200RPM
+Solid State Drive: OCZ RevoDrive 960GB
+CD/DVD Drive: Plextor Blu-ray 16x DVD 48x CD
+Cooling: Corsair Extreme Performance Liquid Cooling
+Power Supply: PC Power and Cooling 1200W
+Operating System: Windows 7 
+Ultimate" />
+
+    </LinearLayout>
+
+</ScrollView>

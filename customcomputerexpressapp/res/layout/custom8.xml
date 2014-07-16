@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <AbsoluteLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.96" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="12dp"
+            android:layout_y="40dp"
+            android:text="Please select a Disk Drive:"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <RadioGroup
+            android:id="@+id/custom8_rg"
+            android:layout_width="wrap_content"
+            android:layout_height="266dp"
+            android:layout_x="20dp"
+            android:layout_y="78dp" >
+
+            <RadioButton
+                android:id="@+id/cust8rad1"
+                android:layout_width="234dp"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="ASUS 18xDVD-ROM 48xCD_ROM (+$16.99)"
+                android:textSize="13dp" />
+
+            <RadioButton
+                android:id="@+id/cust8rad2"
+                android:layout_width="233dp"
+                android:layout_height="wrap_content"
+                android:text="LG 12xBD-ROM 16xDVD-ROM 48xCD-ROM Blu-Ray (+$49.99)"
+                android:textSize="13dp" />
+
+            <RadioButton
+                android:id="@+id/cust8rad3"
+                android:layout_width="234dp"
+                android:layout_height="wrap_content"
+                android:text="Sony 18x DVD-ROM 48xCD-ROM (+$51.99)"
+                android:textSize="13dp" />
+
+            <RadioButton
+                android:id="@+id/cust8rad4"
+                android:layout_width="229dp"
+                android:layout_height="wrap_content"
+                android:text="Asus 12xBD-ROM 16xDVD-ROM 48xCD-ROM (+$57.99)"
+                android:textSize="13dp" />
+
+            <RadioButton
+                android:id="@+id/cust8rad5"
+                android:layout_width="232dp"
+                android:layout_height="wrap_content"
+                android:text="Plextor 8xBD-ROM 16xDVD-ROM 48xCD-ROM (+$109.99)"
+                android:textSize="13dp" />
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/custom8.main"
+            style="@style/ButtonText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_x="0dp"
+            android:layout_y="384dp"
+            android:background="@drawable/ccebutton"
+            android:text="Return to SSD" />
+
+        <Button
+            android:id="@+id/custom8.next"
+            style="@style/ButtonText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_x="0dp"
+            android:layout_y="340dp"
+            android:background="@drawable/ccebutton"
+            android:text="Next" />
+
+        <Button
+            android:id="@+id/custom8.help"
+            style="@style/ButtonText"
+            android:layout_width="64dp"
+            android:layout_height="wrap_content"
+            android:layout_x="250dp"
+            android:layout_y="6dp"
+            android:background="@drawable/ccebutton"
+            android:text="Help"
+            android:textSize="10dp" />
+
+        <Button
+            android:id="@+id/cust8img2"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="256dp"
+            android:layout_y="131dp"
+            android:background="@drawable/ccebutton"
+            android:text="View" />
+
+        <Button
+            android:id="@+id/cust8img1"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="256dp"
+            android:layout_y="83dp"
+            android:background="@drawable/ccebutton"
+            android:text="View" />
+
+        <Button
+            android:id="@+id/cust8img3"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="256dp"
+            android:layout_y="180dp"
+            android:background="@drawable/ccebutton"
+            android:text="View" />
+
+        <Button
+            android:id="@+id/cust8img4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="256dp"
+            android:layout_y="229dp"
+            android:background="@drawable/ccebutton"
+            android:text="View" />
+
+        <Button
+            android:id="@+id/cust8img5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="256dp"
+            android:layout_y="276dp"
+            android:background="@drawable/ccebutton"
+            android:text="View" />
+
+    </AbsoluteLayout>
+
+</LinearLayout>

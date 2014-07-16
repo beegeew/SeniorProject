@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="350dp" 
+    android:layout_height="450dp" 
+    android:orientation="vertical">
+ 
+
+
+
+    <AbsoluteLayout
+        android:layout_width="319dp"
+        android:layout_height="match_parent" >
+
+
+
+
+
+       <Button
+           android:id="@+id/pop.close"
+           style="@style/ButtonText"
+           android:layout_width="303dp"
+           android:layout_height="460dp"
+           android:layout_x="6dp"
+           android:layout_y="18dp"
+           android:text=" " />
+
+
+
+       <TextView
+           android:layout_width="275dp"
+           android:layout_height="match_parent"
+           android:layout_x="14dp"
+           android:layout_y="22dp"
+           android:text="
+Every computer requires an OS to function. The OS is responsible for enabling the user to interact with the computer. While the versions of Windows 7 aren't too different, there are
+noticeable differences which you can view by clicking
+
+
+
+&#13;&#10;&#13;&#10;
+
+If you desire all the features that Windows 7 has to offer, opt for the Ultimate version.
+
+
+" />
+        
+ </AbsoluteLayout></LinearLayout>

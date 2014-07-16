@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cce.mobile.app"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="8" />
+
+    <application
+        android:icon="@drawable/icon"
+        android:label="@string/app_name" >
+        <activity
+            android:label="@string/app_name"
+            android:name=".CCEMainScreenActivity" 
+            android:launchMode="singleInstance">
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity 
+            android:label="Prebuilt - Basic Model"
+            android:name=".Prebuilt1Activity" 
+            android:launchMode="singleInstance"></activity>
+        <activity 
+            android:label="Prebuilt - Media Model"
+            android:name=".Prebuilt2Activity" 
+            android:launchMode="singleInstance"></activity>
+        <activity 
+            android:label="Prebuilt - Gaming Model"
+            android:name=".Prebuilt3Activity" 
+            android:launchMode="singleInstance"></activity>
+        <activity 
+            android:label="Prebuilt - High Performance Model"
+            android:name=".Prebuilt4Activity" 
+            android:launchMode="singleInstance"></activity>
+        <activity 
+            android:label="Prebuilt - Extreme Model"
+            android:name=".Prebuilt5Activity" 
+            android:launchMode="singleInstance"></activity>
+        <activity
+            android:label="Ready-to-Ship computers"
+            android:name=".PrebuiltMainActivity"
+            android:launchMode="singleInstance"></activity>
+        <activity
+            android:label="Questionnaire Start"
+            android:name=".QuestionnaireActivity"
+            android:launchMode="singleInstance"></activity>
+        <activity
+            android:label="Check Order Status"
+            android:name=".CheckOrderActivity"
+            android:launchMode="singleInstance"></activity>
+        <activity
+            android:label="1 of 9"
+            android:name=".Question1Activity"
+            android:launchMode="singleInstance"></activity>
+	    <activity
+            android:label="2 of 9"
+            android:name=".Question2Activity"
+            android:launchMode="singleInstance"></activity>
+    	<activity
+            android:label="3 of 9"
+            android:name=".Question3Activity"
+            android:launchMode="singleInstance"></activity>
+    	<activity
+            android:label="4 of 9"
+            android:name=".Question4Activity"
+            android:launchMode="singleInstance"></activity>
+    	<activity
+            android:label="5 of 9"
+            android:name=".Question5Activity"
+            android:launchMode="singleInstance"></activity>
+    	<activity
+            android:label="6 of 9"
+            android:name=".Question6Activity"
+            android:launchMode="singleInstance"></activity>
+    	<activity
+            android:label="7 of 9"
+            android:name=".Question7Activity"
+            android:launchMode="singleInstance"></activity>
+    	<activity
+            android:label="8 of 9"
+            android:name=".Question8Activity"
+            android:launchMode="singleInstance"></activity>
+		<activity
+            android:label="9 of 9"
+            android:name=".Question9Activity"
+            android:launchMode="singleInstance"></activity>
+		<activity
+            android:label="Recommendations"
+            android:name=".QuestResultsActivity"
+            android:launchMode="singleInstance"></activity>
+        <activity
+            android:label="Configure Your Own Computer"
+            android:name=".ConfigureActivity"
+            android:launchMode="singleInstance"></activity>
+        <activity
+            android:label="Configure 1 of 11"
+            android:name=".Configure1Activity"
+            android:launchMode="singleInstance"></activity>
+        <activity
+            android:label="Configure 2 of 11"
+            android:name=".Configure2Activity"
+            android:launchMode="singleInstance"></activity>
+        <activity
+            android:label="Configure 3 of 11"
+            android:name=".Configure3Activity"
+            android:launchMode="singleInstance"></activity>
+        <activity
+            android:label="Configure 4 of 11"
+            android:name=".Configure4Activity"
+            android:launchMode="singleInstance"></activity>
+        <activity
+            android:label="Configure 5 of 11"
+            android:name=".Configure5Activity"
+            android:launchMode="singleInstance"></activity>
+        <activity
+            android:label="Configure 6 of 11"
+            android:name=".Configure6Activity"
+            android:launchMode="singleInstance"></activity>  
+        <activity
+            android:label="Configure 7 of 11"
+            android:name=".Configure7Activity"
+            android:launchMode="singleInstance"></activity>
+        <activity
+            android:label="Configure 8 of 11"
+            android:name=".Configure8Activity"
+            android:launchMode="singleInstance"></activity>
+        <activity
+            android:label="Configure 9 of 11"
+            android:name=".Configure9Activity"
+            android:launchMode="singleInstance"></activity>
+        <activity
+            android:label="Configure 10 of 11"
+            android:name=".Configure10Activity"
+            android:launchMode="singleInstance"></activity>
+        <activity
+            android:label="Configure 11 of 11"
+            android:name=".Configure11Activity"
+            android:launchMode="singleInstance"></activity>                                          
+        <activity
+            android:label="Orders"
+            android:name=".OrdersActivity"
+            android:launchMode="singleInstance"></activity>
+        <activity
+            android:label="Popup"
+            android:name=".initiatePopupWindow"
+            android:launchMode="singleInstance"></activity>
+        <activity
+            android:label="Checkout"
+            android:name=".CheckoutActivity"
+            android:launchMode="singleInstance"></activity>
+    </application>
+
+</manifest>

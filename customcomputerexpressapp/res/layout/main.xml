@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Customercomputerexpress"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ccelogoalphalight" />
+
+    <Button
+        android:id="@+id/ms.prebuilt"
+        style="@style/ButtonText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ccebutton"
+        android:text="Pre-Built Computers" />
+
+    <Button
+        android:id="@+id/ms.questionnaire"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Help Me Buy a Computer"
+        android:background="@drawable/ccebutton" 
+        style="@style/ButtonText" />
+
+    <Button
+        android:id="@+id/ms.configure"
+        style="@style/ButtonText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ccebutton"
+        android:text="Configure and Purchase a Computer" />
+
+    <Button
+        android:id="@+id/ms.orderstatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Check Order Status"
+        android:background="@drawable/ccebutton" 
+        style="@style/ButtonText" />
+
+    <Button
+        android:id="@+id/ms.exit"
+        style="@style/ButtonText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ccebutton"
+        android:text="Exit Application" />
+
+</LinearLayout>

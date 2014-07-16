@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <AbsoluteLayout
+        android:layout_width="match_parent"
+        android:layout_height="502dp" >
+
+        <TextView
+            android:id="@+id/header1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="10dp"
+            android:layout_y="15dp"
+            android:text="Order ID:"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <Button
+            android:id="@+id/cos_main"
+            style="@style/ButtonText"
+            android:layout_width="234dp"
+            android:layout_height="wrap_content"
+            android:layout_x="41dp"
+            android:layout_y="356dp"
+            android:background="@drawable/ccebutton"
+            android:text="Back" />
+
+        <TextView
+            android:id="@+id/header2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="10dp"
+            android:layout_y="72dp"
+            android:text="Status:"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/headStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="88dp"
+            android:layout_y="75dp"
+            android:text="Payment Being Verified"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/ordId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="114dp"
+            android:layout_y="19dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    </AbsoluteLayout>
+
+</LinearLayout>

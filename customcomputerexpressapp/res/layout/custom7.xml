@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <AbsoluteLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.96" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="12dp"
+            android:layout_y="40dp"
+            android:text="Please select your SSD (optional):"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <RadioGroup
+            android:id="@+id/custom7_rg"
+            android:layout_width="wrap_content"
+            android:layout_height="266dp"
+            android:layout_x="20dp"
+            android:layout_y="78dp" >
+
+
+
+            <RadioButton
+                android:id="@+id/cust7rad1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:textSize="13dp"
+                android:text="OCZ Vertex 2 60GB (+$99.99)" />
+
+
+            <RadioButton
+                android:id="@+id/cust7rad2"
+                android:layout_width="236dp"
+                android:layout_height="wrap_content"
+                android:text="Intel 320 Series 120GB (+$239.99)"
+                android:textSize="13dp" />
+
+
+            <RadioButton
+                android:id="@+id/cust7rad3"
+                android:layout_width="232dp"
+                android:layout_height="wrap_content"
+                android:text="OCZ RevoDrive 3 X2 960GB (+$3199.99)"
+                android:textSize="13dp" />
+
+            <RadioButton
+                android:id="@+id/cust7rad4"
+                android:layout_width="232dp"
+                android:layout_height="wrap_content"
+                android:text="None"
+                android:textSize="13dp" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/custom7.main"
+            style="@style/ButtonText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_x="0dp"
+            android:layout_y="384dp"
+            android:background="@drawable/ccebutton"
+            android:text="Return to HDD" />
+
+        <Button
+            android:id="@+id/custom7.next"
+            style="@style/ButtonText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_x="0dp"
+            android:layout_y="340dp"
+            android:background="@drawable/ccebutton"
+            android:text="Next" />
+
+        <Button
+            android:id="@+id/custom7.help"
+            style="@style/ButtonText"
+            android:layout_width="64dp"
+            android:layout_height="wrap_content"
+            android:layout_x="250dp"
+            android:layout_y="6dp"
+            android:background="@drawable/ccebutton"
+            android:text="Help"
+            android:textSize="10dp" />
+
+
+        <Button
+            android:id="@+id/cust7img2"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="256dp"
+            android:layout_y="131dp"
+            android:background="@drawable/ccebutton"
+            android:text="View" />
+
+
+        <Button
+            android:id="@+id/cust7img1"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="256dp"
+            android:layout_y="83dp"
+            android:background="@drawable/ccebutton"
+            android:text="View" />
+
+
+        <Button
+            android:id="@+id/cust7img3"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="256dp"
+            android:layout_y="180dp"
+            android:background="@drawable/ccebutton"
+            android:text="View" />
+
+
+    </AbsoluteLayout>
+
+</LinearLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="131dp"
+                android:layout_height="176dp"
+                android:src="@drawable/case1" />
+
+            <TextView
+                android:id="@+id/textView1"
+                style="@style/ButtonText"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="right"
+                android:text="Basic Model
+                
+This  has everything you need to get online, stay connected to family and is great for a new computer user."
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/pb1.purchase"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add to Cart!  ($419.92)" 
+            android:background="@drawable/ccebutton" 
+        	style="@style/ButtonText"/>
+
+        <Button
+            android:id="@+id/pb1.customize"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Customize Computer" 
+            android:background="@drawable/ccebutton" 
+        	style="@style/ButtonText"/>
+        <Button
+            android:id="@+id/pb1.main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Return to Main Screen" 
+            android:background="@drawable/ccebutton" 
+        	style="@style/ButtonText"/>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="7.90"
+            android:text="Case: APEX Vortex 3610 
+CPU: Intel 2.4 GHz Dual-core
+Motherboard: BIOSTAR
+Memory: G.SKILL 2GB
+Video Card: None
+Hard Drive: 320GB 7200RPM
+Solid State Drive: None
+CD/DVD Drive: ASUS 18x DVD 48x CD
+Cooling: None
+Power Supply: COOLMAX 650W
+Operating System: Windows 7 Home Premium" />
+
+    </LinearLayout>
+
+</ScrollView>

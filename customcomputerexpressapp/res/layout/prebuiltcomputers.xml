@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/pbm_extreme"
+        style="@style/ButtonText"
+        android:layout_width="283dp"
+        android:layout_height="wrap_content"
+        android:layout_x="20dp"
+        android:layout_y="396dp"
+        android:background="@drawable/extremeccebutton"
+        android:text="Extreme Performance ($6409.89)" />
+
+    <Button
+        android:id="@+id/pbm_main"
+        style="@style/ButtonText"
+        android:layout_width="284dp"
+        android:layout_height="wrap_content"
+        android:layout_x="18dp"
+        android:layout_y="440dp"
+        android:background="@drawable/ccebutton"
+        android:text="Return to Main Screen" />
+
+    <Button
+        android:id="@+id/pbm_gaming"
+        style="@style/ButtonText"
+        android:layout_width="284dp"
+        android:layout_height="wrap_content"
+        android:layout_x="18dp"
+        android:layout_y="308dp"
+        android:background="@drawable/ccebutton"
+        android:text="Gaming ($1473.89)" />
+
+    <Button
+        android:id="@+id/pbm_highperformance"
+        style="@style/ButtonText"
+        android:layout_width="283dp"
+        android:layout_height="wrap_content"
+        android:layout_x="18dp"
+        android:layout_y="352dp"
+        android:background="@drawable/ccebutton"
+        android:text="High Performance ($2194.89)" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="2dp"
+        android:layout_y="27dp"
+        android:src="@drawable/ccelogoalphalight" />
+
+    <Button
+        android:id="@+id/pbm_media"
+        style="@style/ButtonText"
+        android:layout_width="284dp"
+        android:layout_height="wrap_content"
+        android:layout_x="18dp"
+        android:layout_y="264dp"
+        android:background="@drawable/ccebutton"
+        android:text="Media ($879.91)" />
+
+    <Button
+        android:id="@+id/pbm_basic"
+        style="@style/ButtonText"
+        android:layout_width="283dp"
+        android:layout_height="wrap_content"
+        android:layout_x="18dp"
+        android:layout_y="221dp"
+        android:background="@drawable/ccebutton"
+        android:text="Basic ($419.92)" />
+
+</AbsoluteLayout>

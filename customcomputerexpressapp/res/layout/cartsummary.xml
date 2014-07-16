@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:stretchColumns="1" >
+
+    <TableRow>
+
+
+
+
+        <TextView
+            android:id="@+id/caseName"
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="CPU" />
+
+
+
+
+        <TextView
+            android:id="@+id/casePrice"
+            android:gravity="right"
+            android:padding="3dip"
+            android:text="CPUprice"
+            android:maxLength="6" />
+
+    </TableRow>
+
+    <TableRow>
+
+
+
+
+        <TextView
+            android:id="@+id/cpuName"
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Mother"
+            android:maxLength="30" />
+
+
+
+
+        <TextView
+            android:id="@+id/cpuPrice"
+            android:gravity="right"
+            android:padding="3dip"
+            android:text="Price" 
+            android:maxLength="6"/>
+
+    </TableRow>
+
+    <TableRow>
+
+
+        <TextView
+            android:id="@+id/moboName"
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Mother"
+            android:maxLength="30" />
+
+
+        <TextView
+            android:id="@+id/moboPrice"
+            android:gravity="right"
+            android:padding="3dip"
+            android:text="MothPrice"
+            android:maxLength="6" />
+
+    </TableRow>
+
+    <TableRow>
+
+
+        <TextView
+            android:id="@+id/ramName"
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Mother" />
+
+
+        <TextView
+            android:id="@+id/ramPrice"
+            android:gravity="right"
+            android:padding="3dip"
+            android:text="MothPrice" />
+
+    </TableRow>
+
+    <TableRow>
+
+
+        <TextView
+            android:id="@+id/gpuName"
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Mother" />
+
+
+        <TextView
+            android:id="@+id/gpuPrice"
+            android:gravity="right"
+            android:padding="3dip"
+            android:text="MothPrice" />
+
+    </TableRow>
+
+    <TableRow>
+
+
+
+        <TextView
+            android:id="@+id/hddName"
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="hddName" />
+
+
+        <TextView
+            android:id="@+id/hddPrice"
+            android:gravity="right"
+            android:padding="3dip"
+            android:text="MothPrice" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/ssdName"
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Mother" />
+
+        <TextView
+            android:id="@+id/ssdPrice"
+            android:gravity="right"
+            android:padding="3dip"
+            android:text="MothPrice" />
+
+    </TableRow>
+
+    <TableRow>
+
+
+        <TextView
+            android:id="@+id/driveName"
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Mother" />
+
+
+        <TextView
+            android:id="@+id/drivePrice"
+            android:gravity="right"
+            android:padding="3dip"
+            android:text="MothPrice" />
+
+    </TableRow>
+
+    <TableRow>
+
+
+        <TextView
+            android:id="@+id/coolName"
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Mother" />
+
+
+        <TextView
+            android:id="@+id/coolPrice"
+            android:gravity="right"
+            android:padding="3dip"
+            android:text="MothPrice" />
+
+    </TableRow>
+
+    <TableRow>
+
+
+        <TextView
+            android:id="@+id/psuName"
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Mother" />
+
+
+        <TextView
+            android:id="@+id/psuPrice"
+            android:gravity="right"
+            android:padding="3dip"
+            android:text="MothPrice" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/osName"
+            android:layout_width="match_parent"
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Mother" />
+
+        <TextView
+            android:id="@+id/osPrice"
+            android:gravity="right"
+            android:padding="3dip"
+            android:text="MothPrice" />
+
+    </TableRow>
+
+    <View
+        android:layout_height="2dip"
+        android:background="#FF909090" />
+
+    <TableRow>
+
+
+        <TextView
+            android:id="@+id/FinalPrice"
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Final Price" />
+
+
+
+
+        <TextView
+            android:id="@+id/FinalCost"
+            android:gravity="right"
+            android:padding="3dip"
+            android:text="Price" />
+
+    </TableRow>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.43"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/cs_check"
+        style="@style/ButtonText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ccebutton"
+        android:text="Proceed To Checkout" />
+
+    <Button
+        android:id="@+id/cs_cust"
+        style="@style/ButtonText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ccebutton"
+        android:text="Customize" />
+
+    <Button
+        android:id="@+id/cs_main"
+        style="@style/ButtonText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ccebutton"
+        android:text="Return To Main Menu" />
+
+</TableLayout>

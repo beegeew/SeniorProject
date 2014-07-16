@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <AbsoluteLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.96" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="12dp"
+            android:layout_y="40dp"
+            android:text="Please select your Operating System:"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <RadioGroup
+            android:id="@+id/custom11_rg"
+            android:layout_width="wrap_content"
+            android:layout_height="266dp"
+            android:layout_x="20dp"
+            android:layout_y="78dp" >
+
+            <RadioButton
+                android:id="@+id/cust11rad1"
+                android:layout_width="233dp"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="Windows 7 Home Premium (+$99.99)"
+                android:textSize="13dp" />
+
+            <RadioButton
+                android:id="@+id/cust11rad2"
+                android:layout_width="236dp"
+                android:layout_height="wrap_content"
+                android:text="Windows 7 Ultimate (+$189.99)"
+                android:textSize="13dp" />
+
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/custom11.main"
+            style="@style/ButtonText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_x="0dp"
+            android:layout_y="384dp"
+            android:background="@drawable/ccebutton"
+            android:text="Return to Power Supply" />
+
+        <Button
+            android:id="@+id/custom11.next"
+            style="@style/ButtonText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_x="0dp"
+            android:layout_y="340dp"
+            android:background="@drawable/ccebutton"
+            android:text="Finish" />
+
+        <Button
+            android:id="@+id/custom11.help"
+            style="@style/ButtonText"
+            android:layout_width="64dp"
+            android:layout_height="wrap_content"
+            android:layout_x="250dp"
+            android:layout_y="6dp"
+            android:background="@drawable/ccebutton"
+            android:text="Help"
+            android:textSize="10dp" />
+
+
+        <Button
+            android:id="@+id/cust11img2"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="256dp"
+            android:layout_y="131dp"
+            android:background="@drawable/ccebutton"
+            android:text="View" />
+
+
+        <Button
+            android:id="@+id/cust11img1"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="256dp"
+            android:layout_y="83dp"
+            android:background="@drawable/ccebutton"
+            android:text="View" />
+
+
+
+    </AbsoluteLayout>
+
+</LinearLayout>

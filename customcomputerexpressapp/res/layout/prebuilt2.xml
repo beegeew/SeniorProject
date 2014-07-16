@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="131dp"
+                android:layout_height="176dp"
+                android:src="@drawable/case2" />
+
+            <TextView
+                android:id="@+id/textView1"
+                style="@style/ButtonText"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Basic Media
+                
+This computer is great for family entertainment, multimedia applications and light web gaming"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/pb2.purchase"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add to Cart!  ($879.91)" 
+            android:background="@drawable/ccebutton" 
+        	style="@style/ButtonText"/>
+
+        <Button
+            android:id="@+id/pb2.customize"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Customize Computer" 
+            android:background="@drawable/ccebutton" 
+        	style="@style/ButtonText"/>
+        <Button
+            android:id="@+id/pb2.main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Return to Main Screen" 
+            android:background="@drawable/ccebutton" 
+        	style="@style/ButtonText"/>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Case: Antec Thee Hundred
+CPU: Intel i5 3.3 GHz Quad-core
+Motherboard: Gigabyte
+Memory: G.SKILL 4GB
+Video Card: GTX 550 Ti 1GB
+Hard Drive: 500GB 7200RPM
+Solid State Drive: None
+CD/DVD Drive: LG Blu-ray 16x DVD 48x CD
+Cooling: None
+Power Supply: OCZ 700W
+Operating System: Windows 7 
+Home Premium" />
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <AbsoluteLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.96" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="12dp"
+            android:layout_y="40dp"
+            android:text="Please select a CPU:"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <RadioGroup
+            android:id="@+id/custom2_rg"
+            android:layout_width="wrap_content"
+            android:layout_height="266dp"
+            android:layout_x="20dp"
+            android:layout_y="78dp" >
+
+
+
+            <RadioButton
+                android:id="@+id/cust2rad1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:textSize="13dp"
+                android:text="Intel Celeron 2.4Ghz (+$56.99)" />
+
+            <RadioButton
+                android:id="@+id/cust2rad2"
+                android:layout_width="236dp"
+                android:layout_height="wrap_content"
+                android:text="Intel i5-2500 3.3Ghz Intel Graphics 2000(+$209.99)"
+                android:textSize="13dp" />
+
+            <RadioButton
+                android:id="@+id/cust2rad3"
+                android:layout_width="232dp"
+                android:layout_height="wrap_content"
+                android:text="Intel i5-2500k 3.3Ghz Intel Graphics 3000 (+$224.99)"
+                android:textSize="13dp" />
+
+            <RadioButton
+                android:id="@+id/cust2rad4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="13dp"
+                android:text="Intel i7-2600k 3.4Ghz (+$319.99)" />
+
+
+
+            <RadioButton
+                android:id="@+id/cust2rad5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="13dp"
+                android:text="Intel i7-2600k 3.5Ghz (+$369.99)" />
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/custom2.main"
+            style="@style/ButtonText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_x="0dp"
+            android:layout_y="384dp"
+            android:background="@drawable/ccebutton"
+            android:text="Return to Cases" />
+
+        <Button
+            android:id="@+id/custom2.next"
+            style="@style/ButtonText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_x="0dp"
+            android:layout_y="340dp"
+            android:background="@drawable/ccebutton"
+            android:text="Next" />
+
+        <Button
+            android:id="@+id/custom2.help"
+            style="@style/ButtonText"
+            android:layout_width="64dp"
+            android:layout_height="wrap_content"
+            android:layout_x="250dp"
+            android:layout_y="6dp"
+            android:background="@drawable/ccebutton"
+            android:text="Help"
+            android:textSize="10dp" />
+
+
+        <Button
+            android:id="@+id/cust2img2"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="256dp"
+            android:layout_y="131dp"
+            android:background="@drawable/ccebutton"
+            android:text="View" />
+
+
+        <Button
+            android:id="@+id/cust2img1"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="256dp"
+            android:layout_y="83dp"
+            android:background="@drawable/ccebutton"
+            android:text="View" />
+
+
+        <Button
+            android:id="@+id/cust2img3"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="256dp"
+            android:layout_y="180dp"
+            android:background="@drawable/ccebutton"
+            android:text="View" />
+
+
+        <Button
+            android:id="@+id/cust2img4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="256dp"
+            android:layout_y="229dp"
+            android:background="@drawable/ccebutton"
+            android:text="View" />
+
+        <Button
+            android:id="@+id/cust2img5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="256dp"
+            android:layout_y="276dp"
+            android:background="@drawable/ccebutton"
+            android:text="View" />
+
+    </AbsoluteLayout>
+
+</LinearLayout>

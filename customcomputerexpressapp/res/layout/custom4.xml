@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <AbsoluteLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.96" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="12dp"
+            android:layout_y="40dp"
+            android:text="Please select your RAM:"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <RadioGroup
+            android:id="@+id/custom4_rg"
+            android:layout_width="wrap_content"
+            android:layout_height="266dp"
+            android:layout_x="20dp"
+            android:layout_y="78dp" >
+
+
+
+            <RadioButton
+                android:id="@+id/cust4rad1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:textSize="13dp"
+                android:text="G.SKILL 2GB (2x1GB) (+$24.99)" />
+
+
+            <RadioButton
+                android:id="@+id/cust4rad2"
+                android:layout_width="236dp"
+                android:layout_height="wrap_content"
+                android:text="G.SKILL Ripjaws 4GB (2x2GB) (+$29.99)"
+                android:textSize="13dp" />
+
+
+            <RadioButton
+                android:id="@+id/cust4rad3"
+                android:layout_width="232dp"
+                android:layout_height="wrap_content"
+                android:text="G.SKILL Sniper 8GB (2x4GB) (+$42.99)"
+                android:textSize="13dp" />
+
+            <RadioButton
+                android:id="@+id/cust4rad4"
+                android:layout_width="234dp"
+                android:layout_height="wrap_content"
+                android:text="G.SKILL Ripjaws 8GB (2x4GB) (+$45.99)"
+                android:textSize="13dp" />
+
+            <RadioButton
+                android:id="@+id/cust4rad5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="13dp"
+                android:text="G.SKILL 8GB(2x4GB) (+$159.99)" />
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/custom4.main"
+            style="@style/ButtonText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_x="0dp"
+            android:layout_y="384dp"
+            android:background="@drawable/ccebutton"
+            android:text="Return to Motherboard" />
+
+        <Button
+            android:id="@+id/custom4.next"
+            style="@style/ButtonText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_x="0dp"
+            android:layout_y="340dp"
+            android:background="@drawable/ccebutton"
+            android:text="Next" />
+
+        <Button
+            android:id="@+id/custom4.help"
+            style="@style/ButtonText"
+            android:layout_width="64dp"
+            android:layout_height="wrap_content"
+            android:layout_x="250dp"
+            android:layout_y="6dp"
+            android:background="@drawable/ccebutton"
+            android:text="Help"
+            android:textSize="10dp" />
+
+
+        <Button
+            android:id="@+id/cust4img2"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="256dp"
+            android:layout_y="131dp"
+            android:background="@drawable/ccebutton"
+            android:text="View" />
+
+
+        <Button
+            android:id="@+id/cust4img1"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="256dp"
+            android:layout_y="83dp"
+            android:background="@drawable/ccebutton"
+            android:text="View" />
+
+
+        <Button
+            android:id="@+id/cust4img3"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="256dp"
+            android:layout_y="180dp"
+            android:background="@drawable/ccebutton"
+            android:text="View" />
+
+
+        <Button
+            android:id="@+id/cust4img4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="256dp"
+            android:layout_y="229dp"
+            android:background="@drawable/ccebutton"
+            android:text="View" />
+
+        <Button
+            android:id="@+id/cust4img5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="256dp"
+            android:layout_y="276dp"
+            android:background="@drawable/ccebutton"
+            android:text="View" />
+
+    </AbsoluteLayout>
+
+</LinearLayout>

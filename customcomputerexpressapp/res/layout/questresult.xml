@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <AbsoluteLayout
+        android:layout_width="match_parent"
+        android:layout_height="484dp" >
+
+        <TextView
+            android:id="@+id/res.q1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="2dp"
+            android:layout_y="1dp"
+            android:text="Quest1"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/res.q2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="3dp"
+            android:layout_y="24dp"
+            android:text="Quest2"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/res.q4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="1dp"
+            android:layout_y="65dp"
+            android:text="Quest4"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/res.q3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="2dp"
+            android:layout_y="44dp"
+            android:text="Quest3"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/res.q5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="0dp"
+            android:layout_y="88dp"
+            android:text="Quest5"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/res.q6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="3dp"
+            android:layout_y="112dp"
+            android:text="Quest6"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/res.q7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="2dp"
+            android:layout_y="142dp"
+            android:text="Quest7"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/res.q8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="3dp"
+            android:layout_y="172dp"
+            android:text="Quest8"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/res.q9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="5dp"
+            android:layout_y="200dp"
+            android:text="Quest9"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/res.q1ans"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="84dp"
+            android:layout_y="2dp"
+            android:text="Quest5"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/res.q2ans"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="82dp"
+            android:layout_y="25dp"
+            android:text="Quest5"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/res.q3ans"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="81dp"
+            android:layout_y="41dp"
+            android:text="Quest5"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/res.q4ans"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="81dp"
+            android:layout_y="58dp"
+            android:text="Quest5"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/res.q5ans"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="81dp"
+            android:layout_y="86dp"
+            android:text="Quest5"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/res.q6ans"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="87dp"
+            android:layout_y="114dp"
+            android:text="Quest5"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/res.q7ans"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="87dp"
+            android:layout_y="141dp"
+            android:text="Quest5"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/res.q8ans"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="85dp"
+            android:layout_y="168dp"
+            android:text="Quest5"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/res.q9ans"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="88dp"
+            android:layout_y="197dp"
+            android:text="Quest5"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    </AbsoluteLayout>
+
+</LinearLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="350dp" 
+    android:layout_height="450dp" 
+    android:orientation="vertical">
+ 
+
+
+
+    <AbsoluteLayout
+        android:layout_width="319dp"
+        android:layout_height="match_parent" >
+
+
+
+
+
+       <Button
+           android:id="@+id/pop.close"
+           style="@style/ButtonText"
+           android:layout_width="303dp"
+           android:layout_height="460dp"
+           android:layout_x="6dp"
+           android:layout_y="18dp"
+           android:text=" " />
+
+
+
+       <TextView
+           android:layout_width="275dp"
+           android:layout_height="match_parent"
+           android:layout_x="14dp"
+           android:layout_y="22dp"
+           android:text="
+Internal hard drives are used as main storage in desktop PCs, workstations, and servers. Nowadays, small form factor internal hard drives are also used in consumer electronic 
+products such as mp3 players and digital cameras as well. When selecting a hard drive, there are two main things to consider: speed and capacity. Budget permitting, always go for 
+the fastest drive you can. Speed is measured using the RPM figure – a faster rotational speed means greater performance, especially in games, but may cause greater heat and noise. 
+The capacity, measured in GB (gigabytes), should depend on your own storage requirements. A higher capacity drive will invariably cost more than a lower capacity drive, so a 
+balance must usually be struck between capacity and cost.&#13;&#10;&#13;&#10;
+
+If you plan on storing movies, music, or large files, we recommened selecting a hard drive towards the bottom of the list.
+
+
+
+" />
+        
+ </AbsoluteLayout></LinearLayout>
